@@ -1,10 +1,8 @@
-Feature: feature of CRM Login functionality
+Feature: Feature to test the login functionality
 
-  Scenario: 
-    validate the CRM Login is working
-
-    Given browser will be opened
-    And user will be on CRM login page
-    When user is entering username and password
-    And clicking on login button
-    Then user is navigated to HomePage of CRM
+  Scenario: VTiger - crm application login steps
+  
+    Given Browser is opened
+    When User enters un and pwd
+    And click on loginBtn
+    Then user should be redirected to HP
